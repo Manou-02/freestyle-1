@@ -51,7 +51,7 @@ export const Navbar = () => {
             ${
               nav
                 ? " md:-left-full text-gray-300  left-0  border-r ease-in-out duration-500"
-                : "-left-full   duration-1000"
+                : "-left-full duration-1000"
             }`}
         >
           <div className="ml-4 h-24 max-w-25">
