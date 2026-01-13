@@ -54,7 +54,7 @@ export const Navbar = () => {
                 : "-left-full   duration-1000"
             }`}
         >
-          <div className="h-24 max-w-25">
+          <div className="ml-4 h-24 max-w-25">
             <a href="" className={"max-w-25 "}>
               {" "}
               <img src={LOGO} alt="logo" className="h-24 " />{" "}
