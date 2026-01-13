@@ -47,17 +47,19 @@ export const Navbar = () => {
 
         <div
           className={`
-            h-screen fixed  top-0 bg-linear-to-r from-gray-500 via-gray-700 to-gray-900  z-10
+            h-screen fixed w-[70%] top-0 bg-linear-to-r from-gray-500 via-gray-700 to-gray-900  z-10
             ${
               nav
-                ? " md:-left-full text-gray-300  left-0 w-[60%] border-r ease-in-out duration-500"
+                ? " md:-left-full text-gray-300  left-0  border-r ease-in-out duration-500"
                 : "-left-full   duration-1000"
             }`}
         >
-          <a href="" className={nav ? " max-w-25 " : "hidden"}>
-            {" "}
-            <img src={LOGO} alt="logo" className="h-24 " />{" "}
-          </a>
+          <div className="h-24 max-w-25">
+            <a href="" className={"max-w-25 "}>
+              {" "}
+              <img src={LOGO} alt="logo" className="h-24 " />{" "}
+            </a>
+          </div>
           <ul className="font-semibold">
             <li className="p-5 cursor-pointer">
               <Link to="about" smooth offset={50} duration={500}>
